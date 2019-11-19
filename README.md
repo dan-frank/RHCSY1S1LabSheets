@@ -74,10 +74,10 @@ Royal Holloway Computer Science Year 1 Semester 1 Lab Sheets
 
 ## Lab Sheet 8
 - [x] Checkpoint 1: Python Debugging [Computational Thinking]
-- [] Checkpoint 2: Java Debugging [Computational Thinking]
-- [] Checkpoint 3: Another Python Exercise [Computational Thinking]
-- [] Checkpoint 4: Linked Lists [Programming]
-- [] Checkpoint 5: Linked List Class [Programming]
-- [] Checkpoint 6: Trees [Programming]
-- [] Checkpoint 7: Printing Trees [Advanced]
-- [] Checkpoint 8: Debugging Software [Advanced]
+- [x] Checkpoint 2: Java Debugging [Computational Thinking]
+- [ ] Checkpoint 3: Another Python Exercise [Computational Thinking]
+- [ ] Checkpoint 4: Linked Lists [Programming]
+- [ ] Checkpoint 5: Linked List Class [Programming]
+- [ ] Checkpoint 6: Trees [Programming]
+- [ ] Checkpoint 7: Printing Trees [Advanced]
+- [ ] Checkpoint 8: Debugging Software [Advanced]
