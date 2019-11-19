@@ -35,17 +35,3 @@ Line 21:
 
 Line 22:
 - The getPoints() method in the Events object class returns |points| instead of |this.points|
-
-
-
-
-Competition.java:49: error: cannot find symbol
-        return events;
-               ^
-  symbol:   variable events
-  location: class Competition
-Competition.java:99: error: int cannot be dereferenced
-        for (int i = 0; i < scores.length; i++) {
-                                  ^
-Competition.java:100: error: array required, but int found
-            System.out.println("Player " + i + " scored " + scores[i]);
