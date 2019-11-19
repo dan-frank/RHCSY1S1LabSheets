@@ -15,7 +15,29 @@ Competition.java:43: error: cannot find symbol
 - To fix this I changed the variable name on line 41 from |evnts| to |events|
 
 Line 17: |name = name;|
-I noticed the name variable of the Event object was being set without this which means it isn't being assigned to the object so I changed it to |this.name = name;|
+- I noticed the name variable of the Event object was being set without this which means it isn't being assigned to the object so I changed it to |this.name = name;|
+
+Line 81: |System.out.println("Enter player number between 0 and " + (numPlayers - 1) + ": ");|
+- Changed to |System.out.println("Enter player number between 1 and " + numPlayers + ": ");| for readability and added line 84 |winner -= 1;| to maintain information and added |{}| to the if else statement on line 82
+
+Line 60: getWinner()
+- Edited method, adding print statements for visual feedback of user error
+
+Exception in thread "main" java.lang.NullPointerException
+	at Competition.getWinner(Competition.java:77)
+	at Competition.getScores(Competition.java:63)
+	at Competition.main(Competition.java:31)
+- This was becuase on line 62 the for loop adding to the scores array went out of bounds of the events array. To fix this I changed this line to be |for (int i = 0; i < (events.length - 1); i++) {|
+
+
+Line 21:
+- The getName() method in the Events object class returns |name| instead of |this.name|
+
+Line 22:
+- The getPoints() method in the Events object class returns |points| instead of |this.points|
+
+
+
 
 Competition.java:49: error: cannot find symbol
         return events;

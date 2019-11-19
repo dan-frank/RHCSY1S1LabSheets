@@ -18,8 +18,8 @@ class Event {
         this.points = points;
     }
 
-    public String getName() { return name; }
-    public int getPoints() { return points; }
+    public String getName() { return this.name; }
+    public int getPoints() { return this.points; }
 }
 
 public class Competition {
@@ -59,7 +59,7 @@ public class Competition {
     private static int[] getScores(Event[] events, int numPlayers) {
         int[] scores = new int[numPlayers];
 
-        for (int i = 0; i < events.length; i++) {
+        for (int i = 0; i < (events.length - 1); i++) {
             int winner = getWinner(events[i], numPlayers);
             scores[winner] += events[i].getPoints();
         }
@@ -76,17 +76,24 @@ public class Competition {
     private static int getWinner(Event event, int numPlayers) {
         System.out.println("Which player won the " + event.getName());
 
-        int winner = -1;
-        while (winner < 0 || winner >= numPlayers) {
-            System.out.println("Enter player number between 0 and " +
-                               (numPlayers - 1) +
-                               ": ");
-            if (scanner.hasNextInt())
+        int winner = 0;
+        boolean noInput = true;
+        while (noInput) {
+            System.out.println("Enter player number between 1 and " + numPlayers + ": ");
+            if (scanner.hasNextInt()) {
                 winner = scanner.nextInt();
-            else
+            } else {
                 scanner.next();
+            }
+
+            noInput = winner < 1 || winner > numPlayers;
+            if (noInput) {
+                System.out.println("You input an incorrect value.");
+                System.out.println("Please try again");
+            }
         }
 
+        winner = winner - 1;
         return winner;
     }
 
@@ -97,7 +104,7 @@ public class Competition {
      */
     private static void printScores(int[] scores) {
         for (int i = 0; i < scores.length; i++) {
-            System.out.println("Player " + i + " scored " + scores[i]);
+            System.out.println("Player " + (i + 1) + " scored " + scores[i]);
         }
     }
 }
