@@ -1,0 +1,15 @@
+# Decomposition 
+
+You can gather shakespears work from the internet and store it into a local file. Loop through every character used and add the value to a HashMap.
+
+Once you have a Hashmap of the all the characters used you can add all the values together to find out the largestValue and divide each value inside each index of the Hashmap by this largestValue to calculate its percentage.
+
+# Psudocode
+
+call shakespears work
+loop through all characters
+	add + 1 to HashMap at place of character
+add all values together and get largestValue
+loop through all index's of HashMap
+	divide [i]/largestValue
+	print character and percentage

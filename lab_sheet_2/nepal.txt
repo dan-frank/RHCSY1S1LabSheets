@@ -1,0 +1,12 @@
+speed 200
+pen blue, 10
+rt 180
+fd 250
+rt -90
+fd 200
+rt -135
+fd 200
+rt 135
+fd 140
+rt -150
+fd 230

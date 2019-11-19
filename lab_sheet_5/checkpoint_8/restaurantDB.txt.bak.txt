@@ -1,0 +1,3 @@
+Dominos,https://www.dominos.co.uk,Pizza
+Yo Sushi!,https://www.yosushi.co.uk,Sushi
+Five Guys,https://www.fiveguys.co.uk,Burger

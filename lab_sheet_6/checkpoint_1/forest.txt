@@ -1,0 +1,19 @@
+# Stephan Arkadyevitch Forest
+
+*Density of the forest*
+Calculate a smaller area of the forest, possilby one tenth or less depending on the size, and multiply the total amount of trees in that area by the surface area of the forest.
+
+*Wildlife*
+You can use the shannon index to calculate the richness and evenness of the wildlife presesnt in the forest.
+
+*Ground fertility*
+You can measure the fertility of soil by collecting various samples of soil from different areas of the forest and measuring various statistics:
+
+- Sufficient soil depth for adequate root growth and water retention;
+- Good internal drainage, allowing sufficient aeration for optimal root growth (although some plants, such as rice, tolerate waterlogging);
+- Topsoil with sufficient soil organic matter for healthy soil structure and soil moisture retention;
+- Soil pH in the range 5.5 to 7.0 (suitable for most plants but some prefer or tolerate more acid or alkaline conditions);
+- Adequate concentrations of essential plant nutrients in plant-available forms;
+- Presence of a range of microorganisms that support plant growth.
+
+You can use these three things to calculate a reasonable cost for Arkadyevitch's forest.

@@ -1,0 +1,22 @@
+Line 16: |class ContactList:|
+	This was because on line 12: |return (self.username + " <" + self.email + ">" + " (" + self.phone + ")"| was missing a closing parenthesis
+
+Line 61: |else|
+	This was because the else statement was missing a :
+
+Line 78: |if choice == 1:|
+Line 80: |elif choice == 2:|
+Line 82: |elif choice == 3:|
+Line 84: |elif choice == 4:|
+	This was because choice was being compared to a string when it was recieveing an int, e.g. 1 != "1"
+	I fixed this by converting the input into an int
+
+Line 79: |contacts.print_contacts()|
+	Returned an error when trying to print Contact object on line 41, |'Contact' object has no attribute 'email'|
+	This was because of line 8 |self.emall = email| the variable was misspelled and was being called incorrectly on line line 12: |return (self.username + " <" + self.email + ">" + " (" + self.phone + ")"| as 'email'
+	To fix this I edited line 8 to be |self.email = email|
+
+Line 83: |search_contact(contacts)|
+	Returns an error for line 57 |in search_contact; contact = contacts.search_contact(username); TypeError: search_contact() takes 1 positional argument but 2 were given|
+	This was because line 26|def search_contact(username):| didn't contain self as an argument.
+	To fix this I changed line 26 to |def search_contact(self, username):|

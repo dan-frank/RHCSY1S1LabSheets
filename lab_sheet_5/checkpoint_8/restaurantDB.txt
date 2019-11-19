@@ -1,0 +1,6 @@
+Five Guys,https://www.fiveguys.co.uk,Burger
+Papa Johns,https://www.papajohns.co.uk,Pizza
+Dominos,https://www.dominos.co.uk,Pizza
+Test2,test.com,test
+Test2,test.com,test
+Yo Sushi!,https://www.yosushi.co.uk,Sushi

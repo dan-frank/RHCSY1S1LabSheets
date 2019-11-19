@@ -1,0 +1,23 @@
+bottle1 - 700ml
+bottle2 - 500ml
+
+METHOD1:
+	poor 100ml onto the floor from bottle2
+
+METHOD2:
+	get a ruler and split bottle2 into fifths with a pen
+	poor upto 4th
+
+METHOD3:
+	fill bottle1
+	empty bottle1 into bottle2 until it fills
+		[ bottle1 = 200ml ]
+		[ bottle2 = 500ml ]
+	empty bottle 2
+	poor bottle1 into bottle2
+		[ bottle1 = 0ml ]
+		[ bottle2 = 200ml ]
+	fill bottle1
+	poor bottle1 into bottle2 until it fills
+		[ bottle1 = 400ml ]
+		[ bottle2 = 500ml ]

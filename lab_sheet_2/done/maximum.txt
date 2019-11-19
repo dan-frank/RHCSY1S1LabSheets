@@ -1,0 +1,6 @@
+var biggestNum = 0
+var numArray = [a,b,c,d,e]
+foreach i in numArray:
+  is numArray[i] > biggestNum
+    biggestNum = numArray[I]
+print(biggestNum)

@@ -1,0 +1,24 @@
+pen blue, 10
+speed 5
+pd()
+rt 90
+fd 150
+pu()
+bk 150 
+rt -90
+pd()
+fd 200
+pu()
+bk 50
+rt 135
+fd 62.13
+pd()
+fd 150
+pu()
+bk 150
+rt -45
+pd()
+fd 106.064
+rt -147.94
+fd 176.98
+pu()

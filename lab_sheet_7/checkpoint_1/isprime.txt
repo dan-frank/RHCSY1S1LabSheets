@@ -1,0 +1,20 @@
+I tested the following numbers:
+| 0 | 1 | 2 | 4 | 11 |
+
+I tested each number for the following reasons:
+- 0 is not a prime as it is unable to be divided by anything
+- 1 is not a prime as 1 only has one positive divisor
+- 2 is a prime and is the only even prime number
+- 4 is not a prime but is an even number
+- 9 is not a prime
+- 11 is a prime number
+
+The results were as follows:
+0 = Not prime (Correct)
+1 = Is prime (Incorrect)
+2 = Not prime (Incorrect)
+4 = Not prime (Correct)
+9 = Is prime (Incorrect)
+11 = Is prime (Correct)
+
+The results have proved that the system doesn't work and needs some work.

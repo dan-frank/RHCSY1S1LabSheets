@@ -1,0 +1,20 @@
+if (Are You Self Catered? == true)
+	if (Do you want to cook?)
+		goto Student Union Shop
+	else
+		goto line 6
+elseif (Is it the weekend? == true)
+	if (Is it past 18:00? == true)
+		if (are you in kingswood == true)
+			goto KW's
+		else
+			goto line 12
+	else
+		goto The Hub
+	if (Are you in a rush? == true)
+		if (Do you want fast food? == true)
+			goto Tommy's Kitchen
+		else
+			goto Boilerhouse Cafe
+	else
+		goto Founder's Dining Hallw

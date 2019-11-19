@@ -1,0 +1,29 @@
+Competition.java:64: error: ';' expected
+            scores[winner] += events[i].getPoints()
+- To fix this error I added a semi-colon to the end of line 64
+
+Competition.java:32: error: incompatible types: int[] cannot be converted to int
+        printScores(scores);
+- To fix this error I added [] to line 98 to turn the argument from an int to an int array
+
+Competition.java:43: error: cannot find symbol
+        events[0] = new Event("5k Run", 10);
+        events[1] = new Event("Long Jump", 5);
+        events[2] = new Event("Chess Game", 7);
+        events[3] = new Event("Rubik's Cube", 3);
+        events[4] = new Event("Victoria Sponge Baking", 10);
+- To fix this I changed the variable name on line 41 from |evnts| to |events|
+
+Line 17: |name = name;|
+I noticed the name variable of the Event object was being set without this which means it isn't being assigned to the object so I changed it to |this.name = name;|
+
+Competition.java:49: error: cannot find symbol
+        return events;
+               ^
+  symbol:   variable events
+  location: class Competition
+Competition.java:99: error: int cannot be dereferenced
+        for (int i = 0; i < scores.length; i++) {
+                                  ^
+Competition.java:100: error: array required, but int found
+            System.out.println("Player " + i + " scored " + scores[i]);
