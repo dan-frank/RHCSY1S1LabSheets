@@ -1,9 +1,13 @@
 class List {
 	public static void main(String[] args) {
-		LinkNode node1 = new LinkNode("Node 1");
-		LinkNode node2 = new LinkNode("Node 2", node1);
-		LinkNode node3 = new LinkNode("Node 3", node2);
+		int upperBound = 4;
 
-		System.out.println(node3);
+		LinkNode node = null;
+		LinkNode prev = null;
+		for (int i = 0; i < upperBound; i++) {
+			node = new LinkNode("Node " + i, prev);
+			prev = node;
+		}
+		System.out.println(node);
 	}
 }
