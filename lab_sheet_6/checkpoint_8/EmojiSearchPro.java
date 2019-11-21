@@ -73,7 +73,7 @@ class EmojiSearchPro {
 				} else if (choice == 3) {
 					System.out.println("Last emoji was: " + lastEmoji);
 				} else if (choice == 4) {
-					categorySearch(emojis, "flag");
+					categorySearch(emojis, "smileys and people");
 				} else if (choice == 5) {
 					System.out.println("Goodbye! 👋");
 					runProgramme = false;

@@ -52,6 +52,7 @@ class Act {
 
 	@Override
 	public String toString() {
+
 		return "--------------------------------" + "\nName: " + getName() + "\nGenre: " + getKind() + "\nNumber of Memebers: " + getNumMembers() + "\nStage: " + getStage();
 	}
 }

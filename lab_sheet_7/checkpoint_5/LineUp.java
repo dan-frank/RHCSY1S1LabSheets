@@ -11,6 +11,10 @@ class LineUp {
 		return this.acts;
 	}
 
+	public Act getAct(int i) {
+		return this.acts[i];
+	}
+
 	public void setActs(Act[] acts) {
 		this.acts = acts;
 	}
@@ -54,7 +58,8 @@ class LineUp {
 
 	public int numberOfActs() {
 		for (int i = 0; i < getLength(); i++) {
-			if (getActs()[i] == null) {
+			System.out.println(getAct(i));
+			if (getAct(i) == null) {
 				return i;
 			}
 		}
