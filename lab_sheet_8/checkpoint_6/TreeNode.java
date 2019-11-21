@@ -20,27 +20,19 @@ class TreeNode {
 	public TreeNode getNextRight() { return this.right; }
 
 	public String printLeft() {
-		String s = "";
-		
-		s += getPayload();
-
 		if (getNextLeft() != null) {
-			s += "\n" + getNextLeft();
-		}
+                        return getPayload() + "\n" + getNextLeft().printLeft();
+                }
 
-		return s;
+                return getPayload();
 	}
 
 	public String printRight() {
-		String s = "";
-
-		s += getPayload();
-
 		if (getNextRight() != null) {
-			s += "\n" + getNextRight();
+			return getPayload() + "\n" + getNextRight().printRight();
 		}
-		
-		return s;
+	
+		return getPayload();
 	}
 
 	@Override
