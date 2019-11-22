@@ -36,6 +36,9 @@ class LinkedList {
 		System.out.println();
 		
 		head.removeHead();
+		head.removeHead();
+		head.removeHead();
+		head.removeHead();
 		
 		System.out.println(head);
 	}
