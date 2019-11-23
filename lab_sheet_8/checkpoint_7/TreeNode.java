@@ -37,7 +37,19 @@ class TreeNode {
 
 	@Override
 	public String toString() {
-		return getPayload();
+		String s = "";
+
+		s += getPayload();
+
+		if (getNextLeft() != null) {
+			s += "\n" + getNextLeft().toString();
+		}
+
+		if (getNextRight() != null) {
+			s += "\n" + getNextRight().toString();
+		}
+		
+		return s;
 	}
 
 	public static void main(String[] args) {
@@ -51,8 +63,6 @@ class TreeNode {
 
 		TreeNode root = new TreeNode("root", internal1, internal2);
 
-		System.out.println(root.printLeft());
-		System.out.println();
-		System.out.println(root.printRight());
+		System.out.println(root);
 	}
 }
