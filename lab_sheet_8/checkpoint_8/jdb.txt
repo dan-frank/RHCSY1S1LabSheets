@@ -1,0 +1,29 @@
+# JDB Commands
+
+*run*
+
+This command will run the class that you have initialised
+
+*help*
+
+This command will print a list of commands that can be used as well as a short description
+
+*next*
+
+This command will take the program to the next line of code and execute it
+
+*step*
+
+This command will execute the current line
+
+*print*
+
+This command will print the value of a passed expression
+
+*stop in/stop at*
+
+This will run the program as up normal until the program will reach a certain point as specified
+
+*cont*
+
+This command will continue execution of the debugger

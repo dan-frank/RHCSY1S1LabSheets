@@ -80,7 +80,7 @@ Royal Holloway Computer Science Year 1 Semester 1 Lab Sheets
 - [x] Checkpoint 5: Linked List Class [Programming]
 - [x] Checkpoint 6: Trees [Programming]
 - [x] Checkpoint 7: Printing Trees [Advanced]
-- [ ] Checkpoint 8: Debugging Software [Advanced]
+- [x] Checkpoint 8: Debugging Software [Advanced]
 
 ## Lab Sheet 9 - 2019-12-12
 - [ ] Checkpoint 1: Program Design [Computational Thinking]
