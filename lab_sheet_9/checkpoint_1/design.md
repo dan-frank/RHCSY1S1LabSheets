@@ -1,0 +1,57 @@
+# Expenses system
+
+Allow users to track their expenditure
+
+## MUST DO
+
+- [ ] Document your code in JavaDoc style
+
+## Features
+
+- [ ] Interactive GUI
+- [ ] Edit
+- [ ] Analysis
+
+### Edit Mode
+
+- [ ] Users can add expense items
+- [ ] Users can delete expense items
+- [ ] Add budgets
+- [ ] Will automatically save to file
+
+#### Expense Items
+
+- [ ] Description
+- [ ] Category
+- [ ] Amount
+- [ ] Automatic date of when expense was added
+- [ ] Deside whether income / outcome
+
+#### Budgets
+
+- [ ] Limit total spend
+- [ ] Limit by category 
+- [ ] Warn user when budget is running low (below 20%)
+
+### Analysis Mode
+
+- [ ] Breakdown of expenditure by category
+- [ ] Average spend per item
+- [ ] Total expenditure
+
+## Extra
+
+- [ ] Style the GUI
+
+## Examples
+
+### JavaDoc Comment Style
+
+```/**
+ * Calculate the squared sum of a and b
+ *
+ * @param a the first value
+ * @param b the second value
+ * @return (a+b) squared
+ */
+public int squareSum(int a, int b) { ... }'''
