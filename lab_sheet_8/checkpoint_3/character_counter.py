@@ -6,8 +6,8 @@ A_NUM = ord('a')
 Z_NUM = ord('z')
 A_UPPER_NUM = ord('A')
 Z_UPPER_NUM = ord('Z')
-# SYM_A = ord('!')
-# SYM_B = ord('@')
+SYM_A = ord('!')
+SYM_B = ord('@')
 LOWER_DIFF = ord('a') - ord('A')
 
 class CharacterCounter:

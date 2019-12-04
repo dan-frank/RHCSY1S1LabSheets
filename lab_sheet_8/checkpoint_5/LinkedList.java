@@ -1,15 +1,15 @@
 class LinkedList {
-	private LinkNode head;
+	private Node head;
 	
 	public LinkedList() {
 		this.head = null;
 	}
 	
-	public LinkNode getHead() { return this.head; }
-	public void setHead(LinkNode head) { this.head = head; }
+	public Node getHead() { return this.head; }
+	public void setHead(Node head) { this.head = head; }
 	
 	public void addHead(String value) {
-		LinkNode newNode = new LinkNode(value, this.head);
+		Node newNode = new Node(value, this.head);
 		setHead(newNode);
 	}
 
@@ -25,7 +25,7 @@ class LinkedList {
 	public static void main(String[] args) {
 		int upperBound = 4;
 		
-		LinkNode node = null;
+		Node node = null;
 		LinkedList head = new LinkedList();
 		
 		for (int i = 0; i < upperBound; i++) {
@@ -35,7 +35,6 @@ class LinkedList {
 		System.out.println(head);
 		System.out.println();
 		
-		head.removeHead();
 		head.removeHead();
 		head.removeHead();
 		head.removeHead();

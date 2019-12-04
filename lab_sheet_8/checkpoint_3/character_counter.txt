@@ -57,8 +57,3 @@ Traceback (most recent call last):
 AssertionError
 
 The test def test_total_special(): now returns 4 characters as it now checks for symbols. Therefore I updated the test with the new expected result
-
-
-
-
-aa
