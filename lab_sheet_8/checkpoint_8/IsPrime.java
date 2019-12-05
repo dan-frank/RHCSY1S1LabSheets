@@ -4,8 +4,8 @@ public class IsPrime {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number to test for primality: ");
-        // int num = scanner.nextInt();
-	int num = 72;
+        int num = scanner.nextInt();
+	    // int num = 72;
 
         if (isPrime(num))
             System.out.println("The number is prime.");

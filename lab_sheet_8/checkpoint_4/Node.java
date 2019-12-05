@@ -27,12 +27,12 @@ class Node {
 	public static void main(String[] args) {
 		int upperBound = 4;
 
-                Node node = null;
-                Node prev = null;
-                for (int i = 0; i < upperBound; i++) {
-                        node = new Node("Node " + i, prev);
-                        prev = node;
-                }
-                System.out.println(node);
+        Node node = null;
+        Node prev = null;
+        for (int i = 0; i < upperBound; i++) {
+                node = new Node("Node " + i, prev);
+                prev = node;
+        }
+        System.out.println(node);
 	}
 }
