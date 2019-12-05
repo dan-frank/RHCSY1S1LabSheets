@@ -83,6 +83,7 @@ Royal Holloway Computer Science Year 1 Semester 1 Lab Sheets
 - [x] Checkpoint 8: Debugging Software [Advanced]
 
 ## Lab Sheet 9 - 2019-12-12
-- [ ] Checkpoint 1: Program Design [Computational Thinking]
-- [ ] Checkpoint 2: Implementation [Computational Thinking]
-- [ ] Checkpoint 3: Documenting Your Code [Computational Thinking]
+- [x] Checkpoint 1: Teamwork [Computational Thinking]
+- [x] Checkpoint 2: Program Design [Computational Thinking]
+- [ ] Checkpoint 3: Implementation [Computational Thinking]
+- [ ] Checkpoint 4: Documenting Your Code [Computational Thinking]
