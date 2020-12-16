@@ -85,5 +85,5 @@ Year 1 Semester 1 Lab Sheets
 ## Lab Sheet 9 - 2019-12-12
 - [x] Checkpoint 1: Teamwork [Computational Thinking]
 - [x] Checkpoint 2: Program Design [Computational Thinking]
-- [ ] Checkpoint 3: Implementation [Computational Thinking]
-- [ ] Checkpoint 4: Documenting Your Code [Computational Thinking]
+- [x] Checkpoint 3: Implementation [Computational Thinking]
+- [x] Checkpoint 4: Documenting Your Code [Computational Thinking]
