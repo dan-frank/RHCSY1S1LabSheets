@@ -1,5 +1,5 @@
-# RHCSY1S1LabSheets
-Royal Holloway Computer Science Year 1 Semester 1 Lab Sheets
+# Royal Holloway Computer Science: Programming Labs
+Year 1 Semester 1 Lab Sheets
 
 ## Lab Sheet 1 - 2019-10-14
 
